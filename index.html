@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Counsellor</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>The Counsellor</h1>
+    <p class="subhead">Find competitive exams you're eligible for after 12th</p>
+    <form id="examForm">
+      <label>Select your stream:</label>
+      <select id="stream">
+        <option value="">-- Choose --</option>
+        <option value="engineering">Science - Engineering</option>
+        <option value="medical">Science - Biology</option>
+        <option value="commerce">Commerce</option>
+        <option value="arts">Arts</option>
+      </select>
+      <label>Enter your 12th Marks (%):</label>
+      <input type="number" id="marks" placeholder="e.g., 78" min="0" max="100" />
+      <button type="submit">Check Eligibility</button>
+    </form>
+    <div id="resultBox"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
