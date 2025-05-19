@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #07182b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.subhead {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ffd700;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resultBox {
+  margin-top: 30px;
+  font-size: 15px;
+  color: #333;
+  text-align: left;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
